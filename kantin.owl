@@ -1,0 +1,651 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#"
+     xml:base="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLObjectProperty_31bda827_4739_484f_89b8_f24916fe0615 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLObjectProperty_31bda827_4739_484f_89b8_f24916fe0615">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">hasMenu</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLObjectProperty_e2eb7d7e_bbe6_4275_8751_62fe0309e113 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLObjectProperty_e2eb7d7e_bbe6_4275_8751_62fe0309e113">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label xml:lang="en">hasBahan</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_052ed58c_4a94_4382_9c4f_db72d47e7b7f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_052ed58c_4a94_4382_9c4f_db72d47e7b7f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_609280c8_ee6f_4ea3_9087_2b33bd96f949"/>
+        <rdfs:label xml:lang="en">Jamur</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_0b8ff6cd_0d6b_4f71_b343_80bdd28fe63d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_0b8ff6cd_0d6b_4f71_b343_80bdd28fe63d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_e1b74de4_b9e4_4764_8c0e_741407c16e85"/>
+        <rdfs:label xml:lang="en">Cluster3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_181ad928_26a9_4f7e_bd2a_ed9efe609353 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_181ad928_26a9_4f7e_bd2a_ed9efe609353">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_dc094ccd_9fee_4bd6_b2b9_08c6e50a0e8b"/>
+        <rdfs:label xml:lang="en">Drink</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_1a19630f_1a88_48ef_82bf_d444804bf2b7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_1a19630f_1a88_48ef_82bf_d444804bf2b7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_20627bef_26c1_40bb_9a34_507af5825596"/>
+        <rdfs:label xml:lang="en">Padang</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_1a314a2b_90c4_4808_8a46_f99c3095cc35 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_1a314a2b_90c4_4808_8a46_f99c3095cc35">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_292f9b25_8f60_4100_bcd0_fba0f6489c4b"/>
+        <rdfs:label xml:lang="en">Borju</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_1ac033e3_abed_4674_a468_f0dd2bebda08 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_1ac033e3_abed_4674_a468_f0dd2bebda08">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_8194fa97_bbf7_460c_b39d_266ae9243895"/>
+        <rdfs:label xml:lang="en">Manis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_1d2276b1_1313_4b2e_94ed_7fc4ed53f8b5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_1d2276b1_1313_4b2e_94ed_7fc4ed53f8b5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_cde15bf1_dfa6_4cb0_8dd5_9b23aeaa6f23"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLObjectProperty_e2eb7d7e_bbe6_4275_8751_62fe0309e113"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_8aef82f5_c72d_420c_bacd_bb008e32e1c3"/>
+                    </owl:Restriction>
+                </owl:complementOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLObjectProperty_e2eb7d7e_bbe6_4275_8751_62fe0309e113"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_052ed58c_4a94_4382_9c4f_db72d47e7b7f"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLObjectProperty_e2eb7d7e_bbe6_4275_8751_62fe0309e113"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_e09cfdf5_6407_41e0_be66_36e2f85a6ecc"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLObjectProperty_e2eb7d7e_bbe6_4275_8751_62fe0309e113"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_fe4be495_127c_47bd_b7e5_859255f584d8"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">NasiCahSapi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_20627bef_26c1_40bb_9a34_507af5825596 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_20627bef_26c1_40bb_9a34_507af5825596">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_3f079d25_15db_489d_a300_ccd8f3e8ddb8"/>
+        <rdfs:label xml:lang="en">FoodOrigin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_24779d7d_54da_4fde_9248_5d3a70c9e73d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_24779d7d_54da_4fde_9248_5d3a70c9e73d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_7fbe6c08_0b75_45e9_b328_0b07f668a406"/>
+        <rdfs:label xml:lang="en">Influenza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_270d8d8c_cc21_4361_b330_9a0dc62e2dff -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_270d8d8c_cc21_4361_b330_9a0dc62e2dff">
+        <rdfs:label xml:lang="en">DomainThing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_292f9b25_8f60_4100_bcd0_fba0f6489c4b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_292f9b25_8f60_4100_bcd0_fba0f6489c4b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_d29256c6_c402_460b_a78e_064a1becdf6a"/>
+        <rdfs:label xml:lang="en">NamaKantin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_296c906d_d5f8_405d_9ea7_8616a99772b9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_296c906d_d5f8_405d_9ea7_8616a99772b9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_d29256c6_c402_460b_a78e_064a1becdf6a"/>
+        <rdfs:label xml:lang="en">Kedai</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_2ac47892_0334_492c_8d37_2c3268ac75e8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_2ac47892_0334_492c_8d37_2c3268ac75e8">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_b1224c20_74f2_4e3e_9fbb_16b786b907f3"/>
+        <rdfs:label xml:lang="en">Kambing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_37c67815_08c7_4804_9cee_f61cb4e473e1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_37c67815_08c7_4804_9cee_f61cb4e473e1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_20627bef_26c1_40bb_9a34_507af5825596"/>
+        <rdfs:label xml:lang="en">Sundanese</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_3c2aaf1d_80a6_4208_b2a0_debe8fe5df5b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_3c2aaf1d_80a6_4208_b2a0_debe8fe5df5b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_47429f3d_b59b_45f2_b666_ce423d64cdf3"/>
+        <rdfs:label xml:lang="en">Sempit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_3f079d25_15db_489d_a300_ccd8f3e8ddb8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_3f079d25_15db_489d_a300_ccd8f3e8ddb8">
+        <rdfs:label xml:lang="en">ValuePartition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_47429f3d_b59b_45f2_b666_ce423d64cdf3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_47429f3d_b59b_45f2_b666_ce423d64cdf3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_3f079d25_15db_489d_a300_ccd8f3e8ddb8"/>
+        <rdfs:label xml:lang="en">Area</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_4a11db56_f996_4eb3_927b_0a5584b43f92 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_4a11db56_f996_4eb3_927b_0a5584b43f92">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_47429f3d_b59b_45f2_b666_ce423d64cdf3"/>
+        <rdfs:label xml:lang="en">Sedang</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_4ce502b3_d7cb_4aba_8bb8_d931baf6b03f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_4ce502b3_d7cb_4aba_8bb8_d931baf6b03f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_de07afe3_8bbc_4fd6_84b2_36eafcb048a3"/>
+        <rdfs:label xml:lang="en">Menengah</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_520bcdee_2f94_43c3_8f97_1f3d8c5b29c0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_520bcdee_2f94_43c3_8f97_1f3d8c5b29c0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_e1b74de4_b9e4_4764_8c0e_741407c16e85"/>
+        <rdfs:label xml:lang="en">Cluster1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_53fe6d0b_a315_42d1_a8d2_2b74e9862894 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_53fe6d0b_a315_42d1_a8d2_2b74e9862894">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_dc094ccd_9fee_4bd6_b2b9_08c6e50a0e8b"/>
+        <rdfs:label xml:lang="en">Dessert</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_5795f5b1_f88d_4bcf_a84a_7899f5b4ac43 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_5795f5b1_f88d_4bcf_a84a_7899f5b4ac43">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_cde15bf1_dfa6_4cb0_8dd5_9b23aeaa6f23"/>
+        <rdfs:label xml:lang="en">NasiSotoAyam</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_5eba811e_aaad_408f_ad54_3b05489a718f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_5eba811e_aaad_408f_ad54_3b05489a718f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_292f9b25_8f60_4100_bcd0_fba0f6489c4b"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLObjectProperty_31bda827_4739_484f_89b8_f24916fe0615"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_1d2276b1_1313_4b2e_94ed_7fc4ed53f8b5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">KBL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_5fc4ab7c_4ea6_4170_afd7_609f6432005a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_5fc4ab7c_4ea6_4170_afd7_609f6432005a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_fd10748d_ea32_4f82_b039_5092402460ef"/>
+        <rdfs:label xml:lang="en">Karbohidrat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_609280c8_ee6f_4ea3_9087_2b33bd96f949 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_609280c8_ee6f_4ea3_9087_2b33bd96f949">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_fd10748d_ea32_4f82_b039_5092402460ef"/>
+        <rdfs:label xml:lang="en">Sayur</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_6b484556_e112_46b1_b9b7_32dd662b9f5d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_6b484556_e112_46b1_b9b7_32dd662b9f5d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_de07afe3_8bbc_4fd6_84b2_36eafcb048a3"/>
+        <rdfs:label xml:lang="en">Mahal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_742b75fa_8a90_4576_b8c8_e9fb66752e3d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_742b75fa_8a90_4576_b8c8_e9fb66752e3d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_8194fa97_bbf7_460c_b39d_266ae9243895"/>
+        <rdfs:label xml:lang="en">Asam</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_7759abca_83b9_40e9_950e_7aeade39d502 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_7759abca_83b9_40e9_950e_7aeade39d502">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_292f9b25_8f60_4100_bcd0_fba0f6489c4b"/>
+        <rdfs:label xml:lang="en">Eastco</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_794d38ba_c77a_4cc1_8ec0_7e881a8dca93 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_794d38ba_c77a_4cc1_8ec0_7e881a8dca93">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_7fbe6c08_0b75_45e9_b328_0b07f668a406"/>
+        <rdfs:label xml:lang="en">Batuk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_79c8450e_d56a_4d8e_98a7_103a035eee7c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_79c8450e_d56a_4d8e_98a7_103a035eee7c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_292f9b25_8f60_4100_bcd0_fba0f6489c4b"/>
+        <rdfs:label xml:lang="en">PondokPizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_7ebf0f98_dbb2_4681_8caa_224c50782384 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_7ebf0f98_dbb2_4681_8caa_224c50782384">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_47429f3d_b59b_45f2_b666_ce423d64cdf3"/>
+        <rdfs:label xml:lang="en">Luas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_7fbe6c08_0b75_45e9_b328_0b07f668a406 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_7fbe6c08_0b75_45e9_b328_0b07f668a406">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_270d8d8c_cc21_4361_b330_9a0dc62e2dff"/>
+        <rdfs:label xml:lang="en">Menu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_8194fa97_bbf7_460c_b39d_266ae9243895 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_8194fa97_bbf7_460c_b39d_266ae9243895">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_3f079d25_15db_489d_a300_ccd8f3e8ddb8"/>
+        <rdfs:label xml:lang="en">Taste</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_85603fe7_e82b_4b60_8129_cb54242c8a92 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_85603fe7_e82b_4b60_8129_cb54242c8a92">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_dc094ccd_9fee_4bd6_b2b9_08c6e50a0e8b"/>
+        <rdfs:label xml:lang="en">Pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_8aef82f5_c72d_420c_bacd_bb008e32e1c3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_8aef82f5_c72d_420c_bacd_bb008e32e1c3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_bbbe4f37_6cba_4dff_86f5_55979cf21e7d"/>
+        <rdfs:label xml:lang="en">Santan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_9496eeea_89f3_460a_934b_2dc73fabffc1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_9496eeea_89f3_460a_934b_2dc73fabffc1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_d29256c6_c402_460b_a78e_064a1becdf6a"/>
+        <rdfs:label xml:lang="en">Foodcourt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_99d7c249_9449_4372_997f_2822674abce7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_99d7c249_9449_4372_997f_2822674abce7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_8194fa97_bbf7_460c_b39d_266ae9243895"/>
+        <rdfs:label xml:lang="en">Pedas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_a8638d3a_f1f3_43f6_885f_8e88e2ae1e5b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_a8638d3a_f1f3_43f6_885f_8e88e2ae1e5b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_cde15bf1_dfa6_4cb0_8dd5_9b23aeaa6f23"/>
+        <rdfs:label xml:lang="en">NasiGorengTelur</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_afc34b18_2768_4d18_aca9_345b90442bb1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_afc34b18_2768_4d18_aca9_345b90442bb1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_cde15bf1_dfa6_4cb0_8dd5_9b23aeaa6f23"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLObjectProperty_e2eb7d7e_bbe6_4275_8751_62fe0309e113"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_8aef82f5_c72d_420c_bacd_bb008e32e1c3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">NasiPadang</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_b1224c20_74f2_4e3e_9fbb_16b786b907f3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_b1224c20_74f2_4e3e_9fbb_16b786b907f3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_fd10748d_ea32_4f82_b039_5092402460ef"/>
+        <rdfs:label xml:lang="en">Daging</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_b871397d_176d_4551_b638_ce57b7699294 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_b871397d_176d_4551_b638_ce57b7699294">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_de07afe3_8bbc_4fd6_84b2_36eafcb048a3"/>
+        <rdfs:label xml:lang="en">Murah</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_bbbe4f37_6cba_4dff_86f5_55979cf21e7d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_bbbe4f37_6cba_4dff_86f5_55979cf21e7d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_fd10748d_ea32_4f82_b039_5092402460ef"/>
+        <rdfs:label xml:lang="en">LainLain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_be60cb5d_2ef0_4893_9ce8_e89f1dc29688 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_be60cb5d_2ef0_4893_9ce8_e89f1dc29688">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_8194fa97_bbf7_460c_b39d_266ae9243895"/>
+        <rdfs:label xml:lang="en">Asin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_cbf4b86f_455e_480a_b9a1_e34fe84a64bc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_cbf4b86f_455e_480a_b9a1_e34fe84a64bc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_b1224c20_74f2_4e3e_9fbb_16b786b907f3"/>
+        <rdfs:label xml:lang="en">Ayam</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_cbf85b78_6581_40c2_b0cd_37053a7348b9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_cbf85b78_6581_40c2_b0cd_37053a7348b9">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_7fbe6c08_0b75_45e9_b328_0b07f668a406"/>
+                    <owl:Class>
+                        <owl:complementOf>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLObjectProperty_e2eb7d7e_bbe6_4275_8751_62fe0309e113"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_8aef82f5_c72d_420c_bacd_bb008e32e1c3"/>
+                            </owl:Restriction>
+                        </owl:complementOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_7fbe6c08_0b75_45e9_b328_0b07f668a406"/>
+        <rdfs:label xml:lang="en">Maag</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_ccd5f152_e80d_4cc4_be3a_8cf8f74837a9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_ccd5f152_e80d_4cc4_be3a_8cf8f74837a9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_20627bef_26c1_40bb_9a34_507af5825596"/>
+        <rdfs:label xml:lang="en">Chinese</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_cde15bf1_dfa6_4cb0_8dd5_9b23aeaa6f23 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_cde15bf1_dfa6_4cb0_8dd5_9b23aeaa6f23">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_dc094ccd_9fee_4bd6_b2b9_08c6e50a0e8b"/>
+        <rdfs:label xml:lang="en">MainCourse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_d11ac8ab_e5c9_4d87_908a_734077cb1677 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_d11ac8ab_e5c9_4d87_908a_734077cb1677">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_fd10748d_ea32_4f82_b039_5092402460ef"/>
+        <rdfs:label xml:lang="en">Buah</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_d29256c6_c402_460b_a78e_064a1becdf6a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_d29256c6_c402_460b_a78e_064a1becdf6a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_270d8d8c_cc21_4361_b330_9a0dc62e2dff"/>
+        <rdfs:label xml:lang="en">Kantin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_dae3ce69_0dda_4fee_b56f_8f0d881d9a21 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_dae3ce69_0dda_4fee_b56f_8f0d881d9a21">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_d29256c6_c402_460b_a78e_064a1becdf6a"/>
+        <rdfs:label xml:lang="en">Prasmanan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_dc094ccd_9fee_4bd6_b2b9_08c6e50a0e8b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_dc094ccd_9fee_4bd6_b2b9_08c6e50a0e8b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_7fbe6c08_0b75_45e9_b328_0b07f668a406"/>
+        <rdfs:label xml:lang="en">NamedMenu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_de07afe3_8bbc_4fd6_84b2_36eafcb048a3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_de07afe3_8bbc_4fd6_84b2_36eafcb048a3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_3f079d25_15db_489d_a300_ccd8f3e8ddb8"/>
+        <rdfs:label xml:lang="en">PriceRange</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_df9373c7_7d43_4f38_a2ff_362b2f35a683 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_df9373c7_7d43_4f38_a2ff_362b2f35a683">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_292f9b25_8f60_4100_bcd0_fba0f6489c4b"/>
+        <rdfs:label xml:lang="en">Barak</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_e09cfdf5_6407_41e0_be66_36e2f85a6ecc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_e09cfdf5_6407_41e0_be66_36e2f85a6ecc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_b1224c20_74f2_4e3e_9fbb_16b786b907f3"/>
+        <rdfs:label xml:lang="en">Sapi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_e1b74de4_b9e4_4764_8c0e_741407c16e85 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_e1b74de4_b9e4_4764_8c0e_741407c16e85">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_3f079d25_15db_489d_a300_ccd8f3e8ddb8"/>
+        <rdfs:label xml:lang="en">ClusterMenu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_edc9344b_da96_475b_9da1_b53223034f26 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_edc9344b_da96_475b_9da1_b53223034f26">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_e1b74de4_b9e4_4764_8c0e_741407c16e85"/>
+        <rdfs:label xml:lang="en">Cluster2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_fd10748d_ea32_4f82_b039_5092402460ef -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_fd10748d_ea32_4f82_b039_5092402460ef">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_270d8d8c_cc21_4361_b330_9a0dc62e2dff"/>
+        <rdfs:label xml:lang="en">Bahan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_fe4be495_127c_47bd_b7e5_859255f584d8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_fe4be495_127c_47bd_b7e5_859255f584d8">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_5fc4ab7c_4ea6_4170_afd7_609f6432005a"/>
+        <rdfs:label xml:lang="en">Nasi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_1d2276b1_1313_4b2e_94ed_7fc4ed53f8b5"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_5795f5b1_f88d_4bcf_a84a_7899f5b4ac43"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_a8638d3a_f1f3_43f6_885f_8e88e2ae1e5b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jovian/ontologies/2017/9/untitled-ontology-23#OWLClass_afc34b18_2768_4d18_aca9_345b90442bb1"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
